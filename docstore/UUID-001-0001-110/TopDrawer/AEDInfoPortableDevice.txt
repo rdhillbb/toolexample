@@ -1,0 +1,24 @@
+### Information on Automated External Defibrillators (AEDs)
+
+1. **What is an AED?**  
+   An Automated External Defibrillator (AED) is a portable device used to treat individuals experiencing sudden cardiac arrest. It delivers an electric shock to restore normal heart rhythm. AEDs are designed for use by the general public and provide step-by-step voice instructions for operation.  
+   [Learn more from the American Heart Association](https://www.heart.org/-/media/files/health-topics/answers-by-heart/what-is-an-aed.pdf)
+
+2. **Usage and Importance**  
+   AEDs are crucial in emergency situations, especially in public places like schools, airports, and government buildings. They can significantly increase the chances of survival for individuals experiencing sudden cardiac arrest.  
+   [More details from Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/heart-arrhythmia/in-depth/automated-external-defibrillators/art-20043909)
+
+3. **How AEDs Work**  
+   AEDs analyze the heart's rhythm and determine if a shock is needed. They are designed to be user-friendly, with audio and visual prompts guiding the user through the process.  
+   [Read more on Red Cross](https://www.redcross.org/take-a-class/aed/using-an-aed/what-is-aed)
+
+4. **Regulatory Information**  
+   The FDA provides guidelines and information regarding the approval and use of AEDs. It is essential to ensure that the AEDs in use are FDA-approved and maintained properly.  
+   [FDA's AED Information](https://www.fda.gov/medical-devices/cardiovascular-devices/automated-external-defibrillators-aeds)
+
+5. **Historical Context**  
+   The first portable defibrillator was invented in the mid-1960s, and since then, AEDs have become widely available for public use, significantly impacting survival rates in cardiac emergencies.  
+   [Wikipedia on AEDs](https://en.wikipedia.org/wiki/Automated_external_defibrillator)
+
+### Conclusion  
+Automated External Defibrillators are vital life-saving devices that everyone should be familiar with. Their accessibility and ease of use can make a significant difference in emergency situations.

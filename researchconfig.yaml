@@ -1,0 +1,50 @@
+modules:
+  - path: research.evaluater
+    description: Text Evaluator
+    imports:
+      - name: EvaluateTool
+        description: Tool used to review text to enhance or make corrections.
+  - path: research.researchtools
+    description: Langchain community's research tools.
+    imports:
+      - name: GetGeneralInfoTool
+        description: Queries Wikipedia, provides results.
+  - path: langchain_community.tools.tavily_search
+    description: Tavily Search tool.
+    imports:
+      - name: TavilySearchResults
+        description: Fetches Tavily search results.
+  - path: perplexity.googlesearch
+    description: Time frame-based data retrieval.
+    imports:
+      - name: internet_search_google
+        description: Use Google to search Internet
+  - path: filesutil.fileops
+    description: File operations for creating, appending, listing, reading, locating, download_webpag,downloading various content types, cleaning HTML, and saving files,append_file_content
+    imports:
+      - name: append_file_content 
+        description: appends source file to destination file. 
+      - name: writetext
+        description: Filename created based on text and text written to file
+      - name: create_and_write_file
+        description: Creates a new file with given filename and writes text to it
+      - name: append_or_create_file
+        description: Appends text to an existing file or creates a new file if it doesn't exist
+      - name: list_top_drawer_files
+        description: Lists all files in the top drawer for the given UUID
+      - name: read_file_contents
+        description: Reads the contents of a file and returns the entire text
+      - name: get_file_path
+        description: Returns the file path of a given file located in the top directory
+      - name: download_webpage
+        description: Downloads content from a given URL, handling various file types (HTML, PDF, CSV, images, etc.), and saves it to a file in the top drawer
+      - name: download_content
+        description: Downloads content from a given URL, handling various file types (HTML, PDF, CSV, images, etc.), and saves it to a file in the top drawer
+      - name: clean_html_content
+        description: Cleans provided HTML content by removing tags and scripts, extracts readable text, and saves it to a file in the top drawer
+  - path: "finance.exatool"
+    description: "Internet Search toold for financial information"
+    imports:
+      - name: "ExaGetNewsTool"
+        description: "Search for news articles on markets, stocks, international funds, stock exchanges"
+

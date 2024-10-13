@@ -1,0 +1,27 @@
+import anthropic
+
+client = anthropic.Anthropic(
+    # defaults to os.environ.get("ANTHROPIC_API_KEY")
+    api_key="my_api_key",
+)
+
+# Replace placeholders like {{TEXT}} with real values,
+# because the SDK does not support variables.
+message = client.messages.create(
+    model="claude-3-5-sonnet-20240620",
+    max_tokens=1000,
+    temperature=0,
+    system="You are an text to file name service.",
+    messages=[
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You will be creating a file name based on the following text:\n\n<text>\n{{TEXT}}\n</text>\n\nYour task is to create a file name that accurately represents the content of the text. The file name should adhere to the following rules:\n\n1. It must be no longer than 15 characters\n2. It cannot contain spaces\n3. It cannot contain special characters\n4. Numbers are allowed\n5. The name should consist for full words or partial\n\nBefore providing your final answer, use the scratchpad to think through your process. Consider the main topic or keywords from the text, and how you can condense them into a concise file name that meets the above criteria.\n\n<scratchpad>\nThink through your process here. Consider:\n1. What are the main topics or keywords in the text?\n2. How can you abbreviate or combine words to fit the 15-character limit?\n3. Are there any numbers that would be relevant to include?\n4. How can you make the file name descriptive while following the rules?\n</scratchpad>\n\nAfter thinking it through, provide your final file name inside <filename> tags. Remember, the file name should be no longer than 15 characters, contain no spaces or special characters, and can include numbers if relevant.\n\n<filename>"
+                }
+            ]
+        }
+    ]
+)
+print(message.content)

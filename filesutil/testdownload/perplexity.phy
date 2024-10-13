@@ -1,0 +1,30 @@
+import requests
+
+def download_webpage(url, api_key):
+    headers = {
+        'Authorization': f'Bearer {api_key}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Prepare the request body
+    body = {
+        "model": "pplx-7b-online",
+        "messages": [
+            {"role": "user", "content": f"Download the webpage at {url}"}
+        ]
+    }
+    
+    # Send the request to the Perplexity API
+    response = requests.post('https://api.perplexity.ai/chat/completions', headers=headers, json=body)
+    
+    # Check if the request was successful
+    if response.status_code == 200:
+        return response.json()  # Return the downloaded content
+    else:
+        return f"Error: {response.status_code}, {response.text}"
+
+# Example usage
+api_key = 'YOUR_PERPLEXITY_API_KEY'
+url = 'https://example.com'
+webpage_content = download_webpage(url, api_key)
+print(webpage_content)

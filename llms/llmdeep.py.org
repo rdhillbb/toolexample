@@ -1,0 +1,19 @@
+import requests
+import os
+import json
+
+def deepinfra_llm(input_text, system_text):
+    url = "https://api.deepinfra.com/v1/inference/meta-llama/Meta-Llama-3-8B-Instruct"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {os.environ.get('DEEPINFRA_API_TOKEN')}"
+    }
+    data = {
+        "input": f"<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n{system_text}<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n{input_text}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "stop": ["<|eot_id|>"],
+        "stream": False
+    }
+    response = requests.post(url, headers=headers, data=json.dumps(data))
+    return response.json()
+
+print(deepinfra_llm("Write a short summary on Katharine Johnson", "You are a helpful assistant."))

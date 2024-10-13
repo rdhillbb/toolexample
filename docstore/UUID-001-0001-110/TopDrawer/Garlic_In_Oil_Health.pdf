@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html><!--[if lt IE 9]><html class="no-js lt-ie9" lang="fr" dir="ltr"><![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js" lang="fr" dir="ltr">
+<!--<![endif]-->
+<head>
+
+
+
+
+<!-- Start: Adobe Analytics Header PROD script --> 
+
+<script src="//assets.adobedtm.com/be5dfd287373/0127575cd23a/launch-f7c3e6060667.min.js"></script>
+<!-- End: Adobe Analytics Header script --> 
+
+
+<meta charset="utf-8">
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+<title>Information archivée dans le Web | Information Archived on the Web</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<!-- Meta data -->
+ 
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="dcterms.title" content="Information archivée dans le Web" />
+<meta name="dcterms.title" lang="en" content="Information Archived on the Web" />
+<meta name="dcterms.language" title="ISO639-2" content="fra" />
+<meta name="dcterms.language" lang="en" title="ISO639-2" content="eng" />
+<meta name="dcterms.creator"	content="Government of Canada, Public Services and Procurement Canada, Integrated Services Branch, Government Information Services, Publishing and Depository Services" />
+<meta name="dcterms.service" content="PSPC-SPAC_GCPublications" />
+<meta name="dcterms.accessRights" content="2" />
+
+<!-- Meta data-->
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="/boew-wet/wet4.0ca/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="/boew-wet/wet4.0ca/GCWeb/css/theme-srv.min.css">
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<link href="/boew-wet/wet4.0ca/GCWeb/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="/boew-wet/wet4.0ca/GCWeb/css/ie8-theme-srv.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/boew-wet/wet4.0ca/wet-boew/js/ie8-wet-boew.min.js"></script>
+<![endif]-->
+<noscript><link rel="stylesheet" href="/boew-wet/wet4.0ca/wet-boew/css/noscript.min.css" /></noscript>
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<header role="banner" id="wb-bnr" class="container">
+<div class="row">
+<div class="col-sm-6">
+<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/boew-wet/wet4.0ca/GCWeb/assets/sig-blk-en.svg" aria-label="Government of Canada"></object>
+</div>
+<div class="col-sm-6">
+<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="/boew-wet/wet4.0ca/GCWeb/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
+</div>
+</div>
+</header>
+<main role="main" property="mainContentOfPage" class="container">
+
+
+
+<div class="row mrgn-tp-sm">
+<h1 class="wb-inv">Information archivée dans le Web / <span lang="en">Information Archived on the Web</span></h1>
+<section class="col-md-6">
+<h2>Publications du gouvernement du Canada</h2>
+<br />
+<p><a class="btn btn-primary" href="https://publications.gc.ca/collections/collection_2008/hc-sc/H50-3-2E.pdf">Continuer vers la publication
+</a></p><br/>
+<p>Pour demander une publication dans un format alternatif, remplissez <a href="/site/fra/contact/contactezNous.html#emailform">le formulaire électronique</a> des publications du gouvernement du Canada. Utilisez le champ du formulaire «question ou commentaire» pour spécifier la publication demandée.</p>
+<a href="/site/fra/parcourir/index.html">Parcourir les publications du gouvernement du Canada</a>
+
+</section>
+<section class="col-md-6" lang="en">
+<h2>Government of Canada Publications</h2>
+<br />
+<p><a class="btn btn-primary" href="https://publications.gc.ca/collections/collection_2008/hc-sc/H50-3-2E.pdf">Continue to publication
+</a></p><br/>
+<p>To request an alternate format of a publication, complete the Government of Canada Publications <a href="/site/eng/contact/contactUs.html#emailform">email form</a>. Use the form’s “question or comment” field to specify the requested publication.</p>
+<a href="/site/eng/browse/index.html">Browse Government of Canada publications</a>
+
+</section>
+</div>
+
+
+</main>
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="/boew-wet/wet4.0ca/wet-boew/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="/boew-wet/wet4.0ca/wet-boew/js/ie8-wet-boew2.min.js"></script>
+
+<![endif]-->
+
+<!-- Start: Adobe Analytics Footer script --> 
+<script type="text/javascript">_satellite.pageBottom();</script>
+<!-- End: Adobe Analytics Footer script --> 
+
+
+</body>
+</html>
